@@ -3,3 +3,4 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/466c07190bc0a0be8e12/maintainability)](https://codeclimate.com/github/karamba-x/fullstack-javascript-project-44/maintainability)
 [![asciicast](https://asciinema.org/a/UNgsqqUmWrDSHcMhXBq2XFSH3.svg)](https://asciinema.org/a/UNgsqqUmWrDSHcMhXBq2XFSH3)
 [![asciicast](https://asciinema.org/a/0DrYLXZ58gAS5d486UHNtRrFY.svg)](https://asciinema.org/a/0DrYLXZ58gAS5d486UHNtRrFY)
+[![asciicast](https://asciinema.org/a/c2axsy4HfebRxfM4Zwo9w8bLg.svg)](https://asciinema.org/a/c2axsy4HfebRxfM4Zwo9w8bLg)
