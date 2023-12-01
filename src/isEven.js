@@ -1,5 +1,4 @@
-
-const evenNumber = (number) => {
+const isEven = (number) => {
     if (number % 2 === 0) {
         return 'yes';
     } else {
@@ -8,4 +7,4 @@ const evenNumber = (number) => {
 
 }
 
-export default evenNumber;
+export default isEven;
