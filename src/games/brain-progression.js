@@ -11,20 +11,20 @@ const appProgression = () => {
   let correctAnswer = 0;
   let question = '';
   let array = [];
-  for (let i = 0; i < countRounds; i++) {
+  for (let i = 0; i < countRounds; i += 1) {
     let firstNumber = lodash.random(0, 10);
     let emptyValue = lodash.random(0, 9);
     let nextNumber = 0;
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 10; i += 1) {
       nextNumber += firstNumber;
-      array.push(nextNumber)
+      array.push(nextNumber);
     }
     correctAnswer = String(array[emptyValue]);
-    for (let j = 0; j < 10; j++) {
+    for (let j = 0; j < 10; j += 1) {
       if (j === emptyValue) {
-        question += '.. '
+        question += '.. ';
       } else {
-        question += `${array[j]} `
+        question += `${array[j]} `;
       }
     }
 

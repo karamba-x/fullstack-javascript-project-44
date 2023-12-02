@@ -1,7 +1,7 @@
-import engineGame from "../index.js";
 import lodash from 'lodash';
-import isPrime from "../isPrime.js";
-import whoYou from "../cli.js";
+import engineGame from '../index.js';
+import isPrime from '../isPrime.js';
+import whoYou from '../cli.js';
 
 const countRounds = 3;
 
@@ -10,7 +10,7 @@ const appPrime = () => {
   const name = whoYou();
   console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
 
-  for (let i = 0; i < countRounds; i++) {
+  for (let i = 0; i < countRounds; i += 1) {
     const question = lodash.random(0, 20);
     const correctAnswer = isPrime(question);
     if (engineGame(question, correctAnswer, name) === false) {
@@ -19,7 +19,6 @@ const appPrime = () => {
   }
 
   console.log(`Congratulations, ${name}!`);
-
-}
+};
 
 export default appPrime;

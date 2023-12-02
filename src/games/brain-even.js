@@ -1,7 +1,7 @@
-import engineGame from "../index.js";
 import lodash from 'lodash';
-import isEven from "../isEven.js";
-import whoYou from "../cli.js";
+import engineGame from '../index.js';
+import isEven from '../isEven.js';
+import whoYou from '../cli.js';
 
 const countRounds = 3;
 
@@ -10,7 +10,7 @@ const appEven = () => {
   const name = whoYou();
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
-  for (let i = 0; i < countRounds; i++) {
+  for (let i = 0; i < countRounds; i += 1) {
     const question = lodash.random(0, 20);
     const correctAnswer = isEven(question);
     if (engineGame(question, correctAnswer, name) === false) {
@@ -19,7 +19,6 @@ const appEven = () => {
   }
 
   console.log(`Congratulations, ${name}!`);
-
-}
+};
 
 export default appEven;
