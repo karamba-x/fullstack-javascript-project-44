@@ -1,6 +1,6 @@
-import engineGame from "../index.js";
 import lodash from 'lodash';
-import whoYou from "../cli.js";
+import engineGame from '../index.js';
+import whoYou from '../cli.js';
 
 const countRounds = 3;
 
@@ -12,10 +12,10 @@ const appProgression = () => {
   let question = '';
   let array = [];
   for (let i = 0; i < countRounds; i += 1) {
-    let firstNumber = lodash.random(0, 10);
-    let emptyValue = lodash.random(0, 9);
+    const firstNumber = lodash.random(0, 10);
+    const emptyValue = lodash.random(0, 9);
     let nextNumber = 0;
-    for (let i = 0; i < 10; i += 1) {
+    for (let k = 0; k < 10; k += 1) {
       nextNumber += firstNumber;
       array.push(nextNumber);
     }
@@ -37,6 +37,6 @@ const appProgression = () => {
   }
 
   console.log(`Congratulations, ${name}!`);
-}
+};
 
 export default appProgression;

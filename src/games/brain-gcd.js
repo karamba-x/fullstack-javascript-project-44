@@ -13,7 +13,7 @@ const appGcd = () => {
   for (let i = 0; i < countRounds; i += 1) {
     let valueOne = lodash.random(0, 100);
     let valueTwo = lodash.random(0, 100);
-    question = `${valueOne} ${valueTwo}`
+    question = `${valueOne} ${valueTwo}`;
     while (valueOne !== 0 && valueTwo !== 0) {
       if (valueOne > valueTwo) {
         valueOne %= valueTwo;

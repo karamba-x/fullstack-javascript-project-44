@@ -35,7 +35,6 @@ const appCalc = () => {
   }
 
   console.log(`Congratulations, ${name}!`);
-
 };
 
 export default appCalc;
