@@ -9,7 +9,7 @@ const engineGame = (question, correctAnswer, name) => {
     console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`);
     return false;
   }
-  
+
   return true;
 };
 
