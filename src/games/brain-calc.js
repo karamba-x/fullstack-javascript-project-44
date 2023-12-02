@@ -1,6 +1,6 @@
-import engineGame from "../index.js";
 import lodash from 'lodash';
-import whoYou from "../cli.js";
+import engineGame from '../index.js';
+import whoYou from '../cli.js';
 
 const countRounds = 3;
 
