@@ -2,7 +2,7 @@ import readlineSync from 'readline-sync';
 
 
 const engineGame = (question, correctAnswer, name) => {
-    console.log('Question: ', question);
+    console.log('Question:', question);
     const answer = readlineSync.question('Your answer: ');
     if (answer === correctAnswer) {
         console.log('Correct!')
